@@ -11,7 +11,7 @@ while True:
         print('An error has occurred, please try again.\n')
         continue
     #To download video, followed up by the destination of the download
-    youtube.streams.first().download("Downloads/")
+    youtube.streams.first().download("")
     print('Download success!')
     #Asking the user whether they would like to continue or not
     quit_continue = (input('Would you like to continue? (Y)es/(N)o \n> ')).lower()
